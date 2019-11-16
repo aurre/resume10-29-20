@@ -26,52 +26,52 @@ export default {
     return {
       toolsList: [
         {
-          "name": "HTML5",
-          "icon": "html5"
+          name: "HTML5",
+          icon: "html5"
         },
         {
-          "name": "CSS3",
-          "icon": "css3-alt"
+          name: "CSS3",
+          icon: "css3-alt"
         },
         {
-          "name": "Javascript",
-          "icon": "js-square"
+          name: "Javascript",
+          icon: "js-square"
         },
         {
-          "name": "Angular",
-          "icon": "angular"
+          name: "Angular",
+          icon: "angular"
         },
         {
-          "name": "React",
-          "icon": "react"
+          name: "React",
+          icon: "react"
         },
         {
-          "name": "NodeJS",
-          "icon": "node-js"
+          name: "NodeJS",
+          icon: "node-js"
         },
         {
-          "name": "SASS",
-          "icon": "sass"
+          name: "SASS",
+          icon: "sass"
         },
         {
-          "name": "LESS",
-          "icon": "less"
+          name: "LESS",
+          icon: "less"
         },
         {
-          "name": "WordPress",
-          "icon": "wordpress"
+          name: "WordPress",
+          icon: "wordpress"
         },
         {
-          "name": "Gulp",
-          "icon": "gulp"
+          name: "Gulp",
+          icon: "gulp"
         },
         {
-          "name": "Grunt",
-          "icon": "grunt"
+          name: "Grunt",
+          icon: "grunt"
         },
         {
-          "name": "NPM",
-          "icon": "npm"
+          name: "NPM",
+          icon: "npm"
         }
       ],
       workflowList: [
@@ -80,7 +80,7 @@ export default {
         "Cross Functional Teams",
         "Agile Development & Scrum"
       ]
-    }
+    };
   }
-}
+};
 </script>

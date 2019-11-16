@@ -26,7 +26,7 @@ export default {
         "1st Place - James Buchanan High School - Hackathon 2006",
         "3rd Place - James Buchanan High School - Hackathon 2005"
       ]
-    }
+    };
   }
-}
+};
 </script>
