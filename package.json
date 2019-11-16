@@ -17,6 +17,7 @@
     "bootstrap-vue": "^2.0.3",
     "core-js": "^3.3.2",
     "google-fonts-plugin": "^5.0.2",
+    "smooth-scroll": "^16.1.0",
     "startbootstrap-resume": "^5.0.8",
     "vue": "^2.6.10"
   },
