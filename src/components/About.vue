@@ -2,12 +2,12 @@
   <section id="about" class="resume-section p-3 p-lg-5 d-flex align-items-center">
     <div class="w-100">
       <h1 class="mb-0">
-        {{ details.name.first }}
-        <span class="text-primary">{{ details.name.last }}</span>
+        {{ name.first }}
+        <span class="text-primary">{{ name.last }}</span>
       </h1>
       <div class="subheading mb-5">
-        {{ details.address.street }} &middot; {{ details.address.town }}, {{ details.address.state }} {{ details.address.zip }} &middot; {{ details.telephone }} &middot;
-        <a :href="details.email">{{ details.email }}</a>
+        {{ address.street }} &middot; {{ address.town }}, {{ address.state }} {{ address.zip }} &middot; {{ telephone }} &middot;
+        <a :href="'mailto:' + email">{{ email }}</a>
       </div>
       <p
         class="lead mb-5"
@@ -26,20 +26,18 @@ export default {
   name: "About",
   data() {
     return {
-      details: {
-        name: {
-          first: "Clarence",
-          last: "Taylor"
-        },
-        address: {
-          street: "3542 Berry Street",
-          town: "Cheyenne Wells",
-          state: "CO",
-          zip: "80810"
-        },
-        telephone: "(317) 585-8468",
-        email: "name@email.com"
+      name: {
+        first: "Clarence",
+        last: "Taylor"
       },
+      address: {
+        street: "3542 Berry Street",
+        town: "Cheyenne Wells",
+        state: "CO",
+        zip: "80810"
+      },
+      telephone: "(317) 585-8468",
+      email: "name@email.com",
       socialList: [
         {
           name: "LinkedIn",
