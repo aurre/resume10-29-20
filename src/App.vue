@@ -13,6 +13,8 @@
 </template>
 
 <script>
+import smoothScroll from 'smooth-scroll'
+
 import About from "@/components/About";
 import Experience from "@/components/Experience";
 import Education from "@/components/Education";
@@ -31,6 +33,11 @@ export default {
     Interests,
     Awards,
     Navigation
+  },
+  created: function() {
+    var scroll = new smoothScroll('a[href*="#"]', {
+      updateURL: false
+    })
   }
 };
 </script>
