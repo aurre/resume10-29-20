@@ -1,6 +1,6 @@
 <template>
   <b-navbar toggleable="lg" type="dark" :class="`bg-primary fixed-top`" :id="`sideNav`">
-    <b-navbar-brand to="/">
+    <b-navbar-brand to="#app">
       <span class="d-block d-lg-none">{{ name }}</span>
       <span class="d-none d-lg-block">
         <img
@@ -12,14 +12,12 @@
     </b-navbar-brand>
     <b-navbar-toggle target="navbarSupportedContent"></b-navbar-toggle>
     <b-collapse :id="`navbarSupportedContent`" is-nav>
-      <b-navbar-nav>
+      <b-navbar-nav v-b-scrollspy>
         <b-nav-item
           v-for="(navigation, index) in navigationList"
           :key="index"
           class="js-scroll-trigger"
           :href="navigation.url"
-          exact
-          exact-active-class="active"
         >{{ navigation.title }}</b-nav-item>
       </b-navbar-nav>
     </b-collapse>
