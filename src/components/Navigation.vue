@@ -5,7 +5,7 @@
       <span class="d-none d-lg-block">
         <img
           class="img-fluid img-profile rounded-circle mx-auto mb-2"
-          :src="`${publicPath}images/profile.jpg`"
+          src="images/profile.jpg"
           :alt="name"
         />
       </span>
@@ -30,7 +30,6 @@ export default {
   data() {
     return {
       name: "Clarence Taylor",
-      publicPath: process.env.BASE_URL,
       navigationList: [
         {
           title: "About",
