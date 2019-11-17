@@ -45,10 +45,12 @@ export default {
           school: "James Buchanan High School",
           degree: "Technology Magnet Program",
           program: "",
-          dates: {
-            start: "August 2002",
-            end: "May 2006"
-          },
+          dates: [
+            {
+              start: "August 2002",
+              end: "May 2006"
+            }
+          ],
           gpa: "3.56"
         }
       ]
