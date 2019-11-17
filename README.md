@@ -1,4 +1,4 @@
-## Introduction
+# Introduction
 
 This is the VueJS version of [StartBootstrap Resume](https://github.com/BlackrockDigital/startbootstrap-resume) template.
 
@@ -13,6 +13,15 @@ This is the VueJS version of [StartBootstrap Resume](https://github.com/Blackroc
 7. Run `yarn run serve` through your favorite CLI program.
 
  **Note:** I suggest using package manager to install Git, Node and Yarn. You can use [Homebrew](httsp://brew.sh) if you're on a Mac or Linux/WSL, [Scoop](https://scoop.sh) or [Chocolatey](https://chocolatey.org/) if you're on Windows.
+
+## Deploying to GitHub Pages
+
+1. Change the repository URL in line `23` of `deploy.sh` file to your repository URL.
+2. Set script execution flag e.g. `chmod +x deploy.sh`.
+3. Run the script e.g. `./deploy.sh`.
+4. Wait until the script finishes.
+
+**Note:** VueJS also published a guide to deploy VueJS sites to other platforms, checkout the [deployment](https://cli.vuejs.org/guide/deployment.html) documentation for other platforms.
 
 ## Features
 
