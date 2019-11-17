@@ -6,7 +6,7 @@
         <img
           class="img-fluid img-profile rounded-circle mx-auto mb-2"
           :src="`${publicPath}images/profile.jpg`"
-          alt="Rotsen Acob"
+          :alt="name"
         />
       </span>
     </b-navbar-brand>
