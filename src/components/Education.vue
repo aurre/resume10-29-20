@@ -35,10 +35,12 @@ export default {
           school: "University of Colorado Boulder",
           degree: "Bachelor of Science",
           program: "Computer Science - Web Development Track",
-          dates: {
-            start: "August 2006",
-            end: "May 2010"
-          },
+          dates: [
+            {
+              start: "August 2006",
+              end: "May 2010"
+            }
+          ],
           gpa: "3.23"
         },
         {
