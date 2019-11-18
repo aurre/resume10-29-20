@@ -17,13 +17,6 @@ dom.watch()
 library.add(faLinkedin, faGithub, faTwitter, faFacebook, faCss3Alt, faJsSquare, faHtml5, faReact, faNodeJs, faAngular, faLess, faSass, faWordpress, faGulp, faGrunt, faNpm, faTrophy, faCheck)
 Vue.component('font-awesome-icon', FontAwesomeIcon)
 
-// Axios
-import axios from 'axios'
-
-Vue.prototype.$axios = axios.create({
-  baseURL: 'http://localhost:3000/db'
-})
-
 // Main SCSS File
 import '@/assets/scss/resume.scss'
 
