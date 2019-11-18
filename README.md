@@ -23,6 +23,14 @@ This is the VueJS version of [StartBootstrap Resume](https://github.com/Blackroc
 
 **Note:** VueJS also published a guide to deploy VueJS sites to other platforms, checkout the [deployment](https://cli.vuejs.org/guide/deployment.html) documentation for other platforms.
 
+## Using Axios to Get Data using JSON Server Fake REST API
+
+1. Clone or download the [axios](https://github.com/webdevsuperfast/startbootstrap-resume-vue/tree/axios) branch.
+2. Clone or download [Start Bootstrap Resume Data](https://github.com/webdevsuperfast/startbootstrap-resume-vue-data) repository.
+3. Edit the contents of `db.json` from the later repository.
+4. Follow [instruction](https://github.com/webdevsuperfast/startbootstrap-resume-vue-data#deploy-to-heroku) to deploy your data to Heroku or other platforms.
+5. Profit.
+
 ## Features
 
 1. Built with Bootstrap Vue and Font Awesome Vue.
