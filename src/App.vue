@@ -1,8 +1,8 @@
 <template>
   <div id="app">
-    <Navigation />
+    <Navigation :name="name" />
     <b-container class="p-0" fluid>
-      <About />
+      <About :name="name" />
       <Border />
       <Experience />
       <Border />
@@ -31,6 +31,14 @@ import Border from "@/components/Border";
 
 export default {
   name: "app",
+  data() {
+    return {
+      name: {
+        first: "Clarence",
+        last: "Taylor"
+      }
+    }
+  },
   components: {
     About,
     Experience,
