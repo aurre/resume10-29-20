@@ -38,8 +38,8 @@ export default {
           icon: "js-square"
         },
         {
-          name: "Angular",
-          icon: "angular"
+          name: "Vue",
+          icon: "vue"
         },
         {
           name: "React",
@@ -56,18 +56,6 @@ export default {
         {
           name: "LESS",
           icon: "less"
-        },
-        {
-          name: "WordPress",
-          icon: "wordpress"
-        },
-        {
-          name: "Gulp",
-          icon: "gulp"
-        },
-        {
-          name: "Grunt",
-          icon: "grunt"
         },
         {
           name: "NPM",

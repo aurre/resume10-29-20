@@ -12,7 +12,6 @@
       <Border />
       <Interests />
       <Border />
-      <Awards />
     </b-container>
   </div>
 </template>
@@ -25,7 +24,6 @@ import Experience from "@/components/Experience";
 import Education from "@/components/Education";
 import Skills from "@/components/Skills";
 import Interests from "@/components/Interests";
-import Awards from "@/components/Awards";
 import Navigation from "@/components/Navigation";
 import Border from "@/components/Border";
 
@@ -34,8 +32,8 @@ export default {
   data() {
     return {
       name: {
-        first: "Clarence",
-        last: "Taylor"
+        first: "Raysa",
+        last: "Aurrecochea"
       }
     }
   },
@@ -45,7 +43,6 @@ export default {
     Education,
     Skills,
     Interests,
-    Awards,
     Navigation,
     Border
   },

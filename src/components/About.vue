@@ -6,12 +6,12 @@
         <span class="text-primary">{{ name.last }}</span>
       </h1>
       <div class="subheading mb-5">
-        {{ address.street }} &middot; {{ address.town }}, {{ address.state }} {{ address.zip }} &middot; {{ telephone }} &middot;
+        {{ address.city }}, {{ address.state }} &middot; {{ telephone }} &middot;
         <a :href="'mailto:' + email">{{ email }}</a>
       </div>
       <p
         class="lead mb-5"
-      >I am experienced in leveraging agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</p>
+      >{{ aboutMe }}</p>
       <div class="social-icons">
         <a :href="social.url" v-for="(social, index) in socialList" :key="index">
           <font-awesome-icon :icon="['fab', social.icon]"></font-awesome-icon>
@@ -30,35 +30,24 @@ export default {
   data() {
     return {
       address: {
-        street: "3542 Berry Street",
-        town: "Cheyenne Wells",
-        state: "CO",
-        zip: "80810"
+        city: "Chicgo",
+        state: "IL",
       },
-      telephone: "(317) 585-8468",
-      email: "name@email.com",
+      telephone: "(312) 429-6926‬",
+      email: "aurrecochearaysa@gmail.com",
       socialList: [
         {
           name: "LinkedIn",
-          url: "#",
+          url: "https://www.linkedin.com/in/raysa-aurrecochea/",
           icon: "linkedin"
         },
         {
-          name: "GitHub",
-          url: "#",
-          icon: "github"
-        },
-        {
-          name: "Twitter",
-          url: "#",
-          icon: "twitter"
-        },
-        {
-          name: "Facebook",
-          url: "#",
-          icon: "facebook"
+          name: 'Github',
+          url: "https://github.com/aurre",
+          icon: "github",
         }
-      ]
+      ],
+      aboutMe: "Innovative and technically-sophisticated professional with a proven capacity to build quality websites and applications with HTML, CSS, and JavaScript. Proficient in NodeJS, HTML, CSS, and server-scripting with strong knowledge of VueJS, JavaScript, and Source Control. Skilled at conveying complex technical information to a variety of professional people in a clear and understandable manner. Demonstrated success improving client satisfaction and experience through implementation of brand new features into the platform."
     };
   }
 };

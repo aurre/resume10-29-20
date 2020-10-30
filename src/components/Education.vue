@@ -11,7 +11,6 @@
           <h3 class="mb-0">{{ education.school }}</h3>
           <div class="subheading mb-3">{{ education.degree }}</div>
           <div>{{ education.program }}</div>
-          <p>GPA: {{ education.gpa }}</p>
         </div>
         <div class="resume-date text-md-right">
           <span
@@ -32,28 +31,26 @@ export default {
     return {
       educationList: [
         {
-          school: "University of Colorado Boulder",
+          school: "University of Havana",
           degree: "Bachelor of Science",
-          program: "Computer Science - Web Development Track",
+          program: "Industrial and Organizational Psychology",
           dates: [
             {
-              start: "August 2006",
-              end: "May 2010"
+              start: "2010",
+              end: "2015"
             }
           ],
-          gpa: "3.23"
         },
         {
-          school: "James Buchanan High School",
-          degree: "Technology Magnet Program",
-          program: "",
+          school: "Full Stack Academy",
+          degree: "",
+          program: "Software Engineer Immersive Program",
           dates: [
             {
-              start: "August 2002",
-              end: "May 2006"
+              start: "Jan 2018",
+              end: "July 2018"
             }
           ],
-          gpa: "3.56"
         }
       ]
     };

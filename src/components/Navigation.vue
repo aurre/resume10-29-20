@@ -53,10 +53,6 @@ export default {
           title: "Interests",
           url: "#interests"
         },
-        {
-          title: "Awards",
-          url: "#awards"
-        }
       ]
     };
   }

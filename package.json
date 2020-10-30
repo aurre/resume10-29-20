@@ -1,5 +1,5 @@
 {
-  "name": "startbootstrap-resume-vue",
+  "name": "resume10-29-20",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -30,8 +30,6 @@
     "sass-loader": "^8.0.2",
     "vue-template-compiler": "^2.6.11"
   },
-  "description": "A Bootstrap Vue resume/CV theme based on Start Bootstrap Resume template.",
-  "repository": "git@github.com:webdevsuperfast/startbootstrap-resume-vue.git",
-  "author": "webdevsuperfast <acob.rotsen@hotmail.com>",
+  "author": "raysa",
   "license": "MIT"
 }

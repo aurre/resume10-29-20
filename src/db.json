@@ -9,16 +9,6 @@
       "name": "GitHub",
       "url": "#",
       "icon": "github"
-    },
-    {
-      "name": "Twitter",
-      "url": "#",
-      "icon": "twitter"
-    },
-    {
-      "name": "Facebook",
-      "url": "#",
-      "icon": "facebook"
     }
   ],
   "navigation": [
@@ -41,10 +31,6 @@
     {
       "title": "Interests",
       "url": "#interests"
-    },
-    {
-      "title": "Awards",
-      "url": "#awards"
     }
   ],
   "education": [
@@ -87,10 +73,6 @@
       "icon": "js-square"
     },
     {
-      "name": "Angular",
-      "icon": "angular"
-    },
-    {
       "name": "React",
       "icon": "react"
     },
@@ -107,20 +89,12 @@
       "icon": "less"
     },
     {
-      "name": "WordPress",
-      "icon": "wordpress"
-    },
-    {
-      "name": "Gulp",
-      "icon": "gulp"
-    },
-    {
-      "name": "Grunt",
-      "icon": "grunt"
-    },
-    {
       "name": "NPM",
       "icon": "npm"
+    }
+    {
+      "name": "Vue",
+      "icon": "vue"
     }
   ],
   "workflow": [

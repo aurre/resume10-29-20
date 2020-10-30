@@ -31,53 +31,41 @@ export default {
     return {
       experienceList: [
         {
-          position: "Senior Web Developer",
-          company: "Intelitec Solutions",
+          position: "Front-End Software Developer",
+          company: "Fitch Solutions",
           summary:
-            "Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.",
+            "Establish appropriate office hours to deliver effective training to cross-functional team members for seamless on-boarding onto web-client codebase. Oversee the development and deployment of roadmap deliverables within scope and timelines through collaboration with stakeholders, team members, and UX resources.",
           dates: [
             {
-              start: "March 2013",
+              start: "Nov 2019",
               end: "Present"
             }
           ]
         },
         {
-          position: "Web Developer",
-          company: "Intelitec Solutions",
+          position: "Front-End Software Developer",
+          company: "Randstad Technologies US",
           summary:
-            "Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.",
+            "Maximized client/user experience by maintaining the app. Participated in scrum ceremonies like daily scrum, grooming sessions, sprint planning, and sprint retrospective.",
           dates: [
             {
-              start: "December 2011",
-              end: "March 2013"
+              start: "Nov 2018",
+              end: "Nov 2019"
             }
           ]
         },
         {
-          position: "Junior Web Designer",
-          company: "Shout! Media Productions",
+          position: "Front-End Software Developer ",
+          company: "AdaptiGroup LLC",
           summary:
-            "Podcasting operational change management inside of workflows to establish a framework. Taking seamless key performance indicators offline to maximise the long tail. Keeping your eye on the ball while performing a deep dive on the start-up mentality to derive convergence on cross-platform integration.",
+            "Managed and streamlined the project by gathering all visual and functional requirements. Increased browser support after a rewrite of customer-targeted marketing emails and turned the website into a SPA.",
           dates: [
             {
-              start: "July 2010",
-              end: "December 2011"
+              start: "April 2018",
+              end: "Nov 2018"
             }
           ]
         },
-        {
-          position: "Web Design Intern",
-          company: "Shout! Media Productions",
-          summary:
-            "Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI.",
-          dates: [
-            {
-              start: "September 2008",
-              end: "June 2010"
-            }
-          ]
-        }
       ]
     };
   }
